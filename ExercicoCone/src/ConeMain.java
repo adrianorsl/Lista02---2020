@@ -8,15 +8,15 @@ public class ConeMain {
 		c1.setZ(8);
 		System.out.println(c1);
 			
-		Cone c2 = new Cone(3.5, 2);
+		Cone c2 = new Cone(3.5f, 2);
 		c2.setZ(9);
 		System.out.println(c2);
 		
-		Cone c3 = new Cone(20, 13.9);
+		Cone c3 = new Cone(20, 13.9f);
 		c3.setTinta(2);
 		System.out.println(c3);
 		
-		Cone c4 = new Cone(37.78, 16.53, 3);
+		Cone c4 = new Cone(37.78f, 16.53f, 3);
 		System.out.println(c4);
 
 	}

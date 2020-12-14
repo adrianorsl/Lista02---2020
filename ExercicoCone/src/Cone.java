@@ -1,17 +1,17 @@
 
 public class Cone {
 
-	private double z;
-	private double r;
+	private float z;
+	private float r;
     private int tinta;
     private float pi = (float) 3.14;
     
-    public Cone(double r, double z) {
+    public Cone(float r, float z) {
     	setR(r);
     	setZ(z);
     }
     
-    public Cone(double r, int tinta) {
+    public Cone(float r, int tinta) {
     	setR(r);
     	setTinta(tinta);
     }
@@ -21,25 +21,25 @@ public class Cone {
     }
     
     
-    public Cone(double r, double z, int tinta) {
+    public Cone(float r, float z, int tinta) {
     	setR(r);
     	setZ(z);
     	setTinta(tinta);
     }
     
     
-	public double getZ() {
+	public float getZ() {
 		return z;
 	}
-	public void setZ(double z) {
+	public void setZ(float z) {
 		if (z > 0) {
 			this.z = z;
 		}
 	}
-	public double getR() {
+	public float getR() {
 		return r;
 	}
-	public void setR(double r) {
+	public void setR(float r) {
 		if (r > 0) {
 		    this.r = r;
 		}
